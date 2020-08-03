@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    box-sizing: border-box; 
+    font-family: 'Sniglet', cursive;
+}
+
+.heading{
+    width: 100%;
+}
+.logo a{
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    font-size: 20px;
+}
+ 
+#nav-list li a{
+    border-bottom: 2px solid rgb(141, 140, 140);
+    width: 98%;
+}
+#nav-listli a:hover{
+    background: rgb(141, 140, 140);
+
+}
+#nav-list li a span{
+    font-size: 1.8em;
+}
+
+#written{
+    
+   
+}
+
+#cont{
+    margin: 40px;
+    margin-right: 0;
+    background: rgb(141, 140, 140);
+}
+
+@media (max-width: 575px){
+    #cont{
+        margin: 14%;
+        margin-right: 9%;
+    }
+}
+
+@media (min-width: 768px){
+    #cont{
+        margin: 26px;
+        margin-right: 0;
+        
+    }
+}
+
+@media (min-width: 576px){
+        #cont{
+            margin: 6%;
+            margin-right: 0;
+            
+        }
+}
+
+@media (min-width:992px){
+    .ico{
+        visibility: hidden;
+    }
+    #cont{
+        margin-left: 5%; 
+        margin-right: 3%;
+    }
+    #written{
+       
+ 
+    }
+}
+
+
